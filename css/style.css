@@ -114,13 +114,25 @@
   border: 2px solid #ffffff;
   background: rgba(0, 0, 0, 0);
 }
+.banner-button:hover{
+    color:#ec7979;
+    border: 2px solid #ec7979;
+    
+}
+.banner-button__a:hover{
+color:#ec7979
+}
+.banner-button:active{
+    background: #ab4949;
+    border: 2px solid #ab4949;
+}
 .banner-button__a {
   color: #ffffff;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 20px;
   text-decoration: none;
 }
 .banner-box {
@@ -151,6 +163,7 @@
   border-width: 0px 0px 1px;
   display: block;
   margin: 0 auto;
+  outline: none;
 }
 .banner-input-container__name,
 .banner-input-container__email {
@@ -173,7 +186,12 @@ input::placeholder {
   border-radius: 0px 0px 10px 10px;
   border: 0px;
 }
-
+.banner-box-button:hover{
+    background: #ab4949;
+}
+.banner-box-button:active{
+    background: #ec7979;
+}
 .social-media-wrapper {
   background: #f8efef;
 }
@@ -292,13 +310,17 @@ input::placeholder {
   height: 58px;
   margin-top: 27px;
   background-color: #ec7979;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  color: white;
+  
   border-width: 0px;
+}
+.tabs-button__a{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    text-decoration: none;
 }
 .tabs-button:hover {
   background-color: #ab4949;
@@ -676,13 +698,29 @@ input::placeholder {
   height: 58px;
   background: rgba(0, 0, 0, 0);
   border: 2px solid #ffffff;
-  color: #ffffff;
+  
   margin-top: 73px;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
+  
+}
+.design-button__a{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.design-button__a:hover{
+    color:#ec7979;
+}
+.design-button:hover{
+    color:#ec7979;
+    border: 2px solid #ec7979;
+}
+.design-button:active{
+    background: #ab4949;
+    border: 2px solid #ab4949;
 }
 .contact {
   padding-left: 170px;
@@ -735,19 +773,49 @@ input::placeholder {
   width: 571px;
   height: 38px;
   border-width: 0px 0px 1px;
+  outline: none;
+  font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
 }
-
+.contact-input-container::placeholder{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
 .contact-input-container-name,
 .contact-input-container-email {
   margin-bottom: 50px;
   margin-right: 30px;
 }
-.contact-input-container-message {
+
+.contact-textarea-container-message {
   width: 570px;
   height: 214px;
   border-width: 0px 0px 1px;
+outline: none;
+resize: none;
+font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
 }
-
+.contact-textarea-container-message::placeholder{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
 .contact-button {
   display: block;
   margin: 0 auto;
@@ -780,13 +848,15 @@ input::placeholder {
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  padding: 35px 140px 27px 140px;
+  padding: 35px 276px 27px 276px;
 }
 .footer-ul {
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   margin-bottom: 28px;
 }
+
 .footer-text {
   text-align: center;
   font-family: "Raleway";
