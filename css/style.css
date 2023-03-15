@@ -120,14 +120,13 @@
     
 }
 .banner-button__a:hover{
-color:#ec7979
+color:#ec7979;
+cursor: pointer;
 }
 .banner-button:active{
     background: #ab4949;
     border: 2px solid #ab4949;
-}
-.banner-button__a {
-  color: #ffffff;
+    color: #ffffff;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
@@ -135,6 +134,7 @@ color:#ec7979
   line-height: 20px;
   text-decoration: none;
 }
+
 .banner-box {
   width: 470px;
   height: 450px;
@@ -186,8 +186,18 @@ input::placeholder {
   border-radius: 0px 0px 10px 10px;
   border: 0px;
 }
+.banner-button__a{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
 .banner-box-button:hover{
     background: #ab4949;
+    cursor: pointer;
 }
 .banner-box-button:active{
     background: #ec7979;
@@ -823,18 +833,16 @@ font-family: 'Open Sans';
   height: 50px;
   background-color: #ec7979;
   border: 0px solid;
-}
-.contact-button__a {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
   color: #ffffff;
-  text-decoration: none;
 }
 .contact-button:hover {
   background-color: #ab4949;
+  cursor: pointer;
 }
 .contact-button:active {
   background-color: #ec7979;
